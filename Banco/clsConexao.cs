@@ -13,7 +13,7 @@ namespace Banco
     {
         private SqlConnection Conectar()
         {
-            string strConexao = "server=localhost;User Id=sa;database=loja; password=root";
+            string strConexao = "server=localhost;User Id=sa;database=loja; password=1234";
 
             SqlConnection sqlCon = new SqlConnection(strConexao);
 
